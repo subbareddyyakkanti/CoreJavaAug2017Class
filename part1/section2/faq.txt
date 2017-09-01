@@ -1,0 +1,17 @@
+B27:
+In the computer science, Abstraction is used to separate ideas from their implementation.
+Abstraction in java is used to define only ideas in one class so that the idea can be implemented by its sub classes
+according to their requirements
+
+B40:
+Can an abstract class have a constructor?
+yes, to call super class constructor
+
+B48:
+no we can't have constructor in an interface, why bcz constructor is used to initialize the instance variable stored in an object.
+Constructor is called concurrently while creating object. We can't create object to interface & also we can't provide instance
+variable to interface. So we can't use constructor in an interface 
+
+B49:
+Since purpose of interface is to provide a mechanism where users/implementors of the interface can implement the properties( methods)
+according to their needs. But if i am allowed to add implementation in interface then some how that purpose of interface is defeated

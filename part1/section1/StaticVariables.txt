@@ -1,0 +1,5 @@
+Initialize statics one by one in the order as declared in the source code.
+
+Since the first static is initialized before the rest, during the initialization of the first static the rest are null or default values.
+
+During the initiation of the second static the first static is correct but the rest are still null or default.
